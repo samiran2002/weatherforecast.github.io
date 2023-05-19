@@ -35,7 +35,7 @@ search.addEventListener('click',() => {
                 case 'Clear':
                     var current = new Date();
                     var day_night = current.getHours();
-                    if (day_night <= 12){
+                    if (day_night <= 18){
                         image.src = 'sunny.png';
                     }
                     else {
