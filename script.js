@@ -45,7 +45,7 @@ search.addEventListener('click',() => {
                 case 'Clouds':
                     var current = new Date();
                     var day_night = current.getHours();
-                    if (day_night <= 12){
+                    if (day_night <= 18){
                         image.src = 'cloudy.jpg';
                     }
                     else {
