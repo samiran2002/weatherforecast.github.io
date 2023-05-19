@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="style.css">
+    <!--fontawesome icons v6.4.0-->
+    <script src="https://kit.fontawesome.com/3fc166e610.js"></script>
+    <!--Sofia font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    
+
+</head>
+<body>
+    <video autoplay loop muted plays-inline class="background-clip">
+        <source src="dark.mp4" type="video/mp4">
+    </video>
+
+    <div class="container"> 
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Enter Location" class="input">
+            <button class="fa-solid fa-magnifying-glass"></button> 
+        </div>
+         
+        <div class="not-found">
+            <img src="404.jpg" alt="...">
+            <p>Ooops !!!</p>
+            <p>Location Not Found :/</p>
+            <p>Try Another Location</p>
+        </div>
+
+
+        <div class="weather-box">
+            <img src="" alt="...">
+            <p class="temperature" id="temp"></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="weather-details">
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="weather-box">
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
